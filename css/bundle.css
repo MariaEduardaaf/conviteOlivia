@@ -2,15 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
-  background-image: url(../image/fundo.png);
+  background-image: url(../image/fundo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -24,14 +25,14 @@ body {
   height: 100%;
   align-items: center;
   position: fixed;
-  background-color: rosybrown;
+  background-color: rgb(222, 185, 104);
   text-align: center;
 }
-  
+
 #sec-lateral .container {
-  top:50%;
+  top: 50%;
   position: absolute;
-  transform:translateY(-50%);
+  transform: translateY(-50%);
 }
 
 #sec-lateral .foto img {
@@ -41,11 +42,10 @@ body {
 }
 
 #sec-lateral .menu {
-  padding: 10px 4%;
+  padding: 5px 4%;
   text-align: center;
   color: whitesmoke;
   letter-spacing: 2.4px;
-  word-spacing: 2.4px;
   font-size: 1rem;
 }
 
@@ -55,7 +55,7 @@ body {
 
 #sec-lateral .alignImage img {
   width: 100%;
-  height: 80%;
+  height: 100%;
   max-width: 48px;
   max-height: 48px;
   text-align: center;
@@ -78,61 +78,162 @@ body {
 }
 
 #sec-convite .box-one {
-  font-size: 1rem;
+  font-family: 'Dancing Script', cursive;
+  padding-top: 150px;
+  display: flex;
+justify-content: center;
+  font-size: 4rem;
+}
+#sec-convite .box-one-one {
+  font-family: 'Dancing Script', cursive;
+
+  display: flex;
+justify-content: center;
+  font-size: 3rem;
 }
 
 #sec-convite .box-two {
-  margin-right: 2%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+#sec-convite .box-two-two {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+#sec-convite .box-two-three {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+#sec-convite .box-two-one {
+  font-size: 1.7rem;
+  display: flex;
+  font-family: 'Dancing Script', cursive;
+  padding-top: 50px;
+  justify-content: center;
+}
+#sec-convite .box-two-four {
+  font-size: 1.7rem;
+  display: flex;
+  font-family: 'Dancing Script', cursive;
+  padding-top: 50px;
+  justify-content: end;
+}
+
+#sec-convite .box-three {
+  margin-right: 4%;
   padding: 24px 2%;
   float: right;
 }
-   
-#sec-convite .box-two input {
-  padding: 4px 4px;
-  font-size: 14px;
+
+#sec-convite .box-three button {
+  padding: 8px 8px;
+  font-size: 17px;
   font-weight: bold;
-  border: 1px solid dimgray;
-  background-color: silver;
+  border: 1px solid rgb(116, 108, 11);
+  background-color: rgb(213, 198, 33);
   letter-spacing: 1.5px;
   cursor: pointer;
 }
 
-#sec-convite .box-two input:hover {
-  background-color: springgreen;
-}
-
-#footer .container {
-  right: 16px;
-  bottom: 16px;
-  float: right;
-  position: absolute;
-  font-size: 1rem;
-}
-
 /**Mobile**/
-@media (max-width: 768px){
+@media (max-width: 768px) {
   #sec-lateral {
-    width: 40%;  
+    width: 30%;
   }
 
   #sec-lateral .foto img {
-    width: 80%;
+    width: 90%;
   }
 
-  #sec-convite {
-    left: 45%;
-    font-size: 12px;
-  }
 
   #sec-convite .box-one {
-    font-size: .8rem;
-  }
-   
-  #sec-convite .box-two input {
-    font-size: 12px;
+    padding-top: 10px;
+    font-size: 1.8rem;
   }
 
-  #footer .container {
-    font-size: .6rem;
+
+  #sec-convite .box-one-one {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.6rem;
+    padding-left: 10px;
+    padding-right: 10px;
   }
+  
+  #sec-convite .box-two {
+    font-size:  1.3rem;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 2px;
+    padding-right: 20px;
+  }
+  
+  #sec-convite .box-two-two {
+    font-size: 1.3rem;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 1px;
+    padding-right: 10px;
+  
+  }
+  
+  #sec-convite .box-two-three {
+    font-size: 1.3rem;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 1px;
+    padding-right: 10px;
+  
+  }
+  
+  #sec-convite .box-two-one {
+    font-size: 1.3rem;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 20px;
+    padding-left: 1px;
+    padding-right: 8px;
+    display: flex;
+    text-align: center;
+    
+  }
+  #sec-convite .box-two-four {
+    font-size: 1.2rem;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 20px;
+    padding-right: 1px;
+  }
+  #sec-convite .box-three {
+    margin-right:40%;
+    padding: 24px 2%;
+    float: right;
+    
+  }
+  
+  #sec-convite .box-three button {
+    padding: 2px 2px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid rgb(116, 108, 11);
+    background-color: rgb(213, 198, 33);
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
 }
