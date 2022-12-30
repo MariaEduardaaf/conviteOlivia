@@ -168,7 +168,7 @@ justify-content: center;
 
 
   #sec-convite .box-one {
-    padding-top: 10px;
+    padding-top: 7px;
     font-size: 1.8rem;
   }
 
@@ -206,7 +206,7 @@ justify-content: center;
   #sec-convite .box-two-one {
     font-size: 1.3rem;
     font-family: 'Dancing Script', cursive;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 1px;
     padding-right: 8px;
     display: flex;
